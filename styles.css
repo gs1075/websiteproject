@@ -5,11 +5,11 @@ body {
 }
 
 header {
+    position: fixed;
     background-color: #330;
     color: #fff;
     padding: 20px;
     text-align: center;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
