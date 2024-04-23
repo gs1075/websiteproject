@@ -1,20 +1,25 @@
-body {
-    font-family: 'Times New Roman', serif;
-    margin: 0;
-    padding-top: 80px; 
+/* Add your custom styles here */
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #320;
-    color: #fff;
+    background-color: #f9f9f9;
     padding: 20px;
-    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+header h1 {
+    margin: 0;
+}
 
 nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
@@ -24,20 +29,41 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
     text-decoration: none;
+    color: #333;
 }
 
 .section {
     padding: 20px;
 }
 
+.university, .company {
+    margin-bottom: 30px;
+}
+
+.university img, .company img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.university p, .company p {
+    margin: 0;
+}
+
+.university strong, .company strong {
+    font-weight: bold;
+}
+
+.university a, .company a {
+    color: #007bff;
+}
+
 footer {
-    background-color: #320;
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
-    position: fixed;
+    padding: 20px;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
